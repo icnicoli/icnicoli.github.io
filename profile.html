@@ -42,10 +42,10 @@
 							<section class="post">
 								<header class="major">
 									<h1>About Me</h1>
-									<p>I am Isaac Cris Nicoli D. Sabandal, born in 2003, from Bacolod City. My passion lies in the realm of Human-Computer Interaction. I pursued a Bachelor of Science in Information Technology, specializing in Web and Mobile Application Development to further my knowledge in this field.</p>
+									<p>I am Isaac Cris Nicoli D. Sabandal, born in 2003, from Bacolod City.</p>
 								</header>
-								<div class="image main"><img src="images/profile.jpg" alt="" class="image-small" /></div>
-								<p>
+								<!-- <div class="image main"><img src="images/profile.jpg" alt="" class="image-small" /></div> -->
+								<p>  My passion lies in the realm of Human-Computer Interaction. I pursued a Bachelor of Science in Information Technology, specializing in Web and Mobile Application Development to further my knowledge in this field.
 									While I may not have an extensive dialogue to share, my passion for design and layout work has been a constant since my high school days. I thrive on constructive criticism as it propels me towards achieving perfection. Additionally, I am committed to continuous learning and hold certifications from various international organizations to enhance my skills and knowledge in this field</p>
 							</section>
 
@@ -53,28 +53,57 @@
 
 				<!-- Footer -->
 				<footer id="footer">
-					<section class="split contact">
-						<section class="alt">
-							<h3>Address</h3>
-							<p>Bacolod City, Philippines 6100</p>
-						</section>
-						<section>
-							<h3>Phone</h3>
-							<p><a href="#">(+63) 9668 914577</a></p>
-						</section>
-						<section>
-							<h3>Email</h3>
-							<p><a href="https://mail.google.com/">sabandalisaac@gmail.com</a></p>
-						</section>
+					<section>
+						<form method="post" action="process_form.php">
+							<div class="fields">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="3"></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
 					</section>
-				</footer>
+					<section class="split contact">
+					   <section class="alt">
+						  <h3>Address</h3>
+						  <p>Bacolod City, Philippines 6100</p>
+					   </section>
+					   <section>
+						  <h3>Phone</h3>
+						  <p><a href="#">(+63) 9668 914577</a></p>
+					   </section>
+					   <section>
+						  <h3>Email</h3>
+						  <p><a href="https://mail.google.com/">sabandalisaac@gmail.com</a></p>
+					   </section>
+					   <section>
+						<h3>Social</h3>
+						<ul class="icons alt">
+						<li><a href="https://www.linkedin.com/in/isaac-cris-nicoli-sabandal-143191265" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/icnicoli" class="icon brands alt fa-github"><span class="label">Github</span></a></li>
+						</ul>
+					</section>
+					</section>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Copyright</li><li>Design: <a href="#">All rights reserved :p</a></li></ul>
-					</div>
+			  </footer>
 
-			</div>
+				 </footer>
+				 <!-- Copyright -->
+				 <div id="copyright">
+					<ul><li>&copy; All Rights Reserved hehe</li></ul>
+				 </div>
+			  </div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

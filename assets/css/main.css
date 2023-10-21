@@ -2555,12 +2555,13 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		display: inline-flex;
 	}
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			display: inline-block;
+			display: inline-flex;
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;

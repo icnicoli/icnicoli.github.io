@@ -10,10 +10,11 @@
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		text-align: left;
 
 		li {
 			display: inline-block;
-			padding: 0 0.5rem 0 0;
+			padding: 0 0.25rem 0 0;
 			vertical-align: middle;
 
 			&:last-child {
@@ -26,7 +27,7 @@
 					height: 2.25rem;
 					line-height: 2.25rem;
 					display: inline-block;
-					text-align: center;
+					text-align: left;
 					border-radius: 100%;
 					font-size: 1.25rem;
 				}
