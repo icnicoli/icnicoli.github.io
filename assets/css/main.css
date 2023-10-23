@@ -3955,13 +3955,13 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: #717981;
+		color: #d0d0d5;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
 		background-color: #f5f5f5;
-		color: #909498;
+		color: #e7ebee;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
@@ -3971,11 +3971,11 @@ input, select, textarea {
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #717981;
+			color: #c9cacc;
 		}
 
 		#footer a {
-			color: #717981;
+			color: #e7ebee;
 			border-bottom-color: rgba(113, 121, 129, 0.5);
 		}
 
@@ -3985,11 +3985,11 @@ input, select, textarea {
 			}
 
 		#footer strong, #footer b {
-			color: #717981;
+			color: #bfc3c6;
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #717981;
+			color: #c7c7c8;
 		}
 
 		#footer blockquote {
@@ -4015,8 +4015,8 @@ input, select, textarea {
 		#footer button,
 		#footer .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #717981;
-			color: #717981 !important;
+			box-shadow: inset 0 0 0 2px #d0d1d3;
+			color: #cdd2d6 !important;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -4033,7 +4033,7 @@ input, select, textarea {
 			#footer input[type="button"].primary,
 			#footer button.primary,
 			#footer .button.primary {
-				background-color: #717981;
+				background-color: #e6ecf2;
 				box-shadow: none;
 				color: #f5f5f5 !important;
 			}
@@ -4047,7 +4047,7 @@ input, select, textarea {
 				}
 
 		#footer label {
-			color: #717981;
+			color: #e1e4e7;
 		}
 
 		#footer input[type="text"],
@@ -4072,7 +4072,7 @@ input, select, textarea {
 
 			#footer select option {
 				background-color: #f5f5f5;
-				color: #717981;
+				color: #d7d9db;
 			}
 
 		#footer .select-wrapper:before {
@@ -4081,7 +4081,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"] + label,
 		#footer input[type="radio"] + label {
-			color: #717981;
+			color: #c1c4c7;
 		}
 
 			#footer input[type="checkbox"] + label:before,
@@ -4146,11 +4146,11 @@ input, select, textarea {
 		}
 
 			#footer table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(220, 220, 220, 0.5);
+				background-color: rgba(255, 255, 255, 0.884);
 			}
 
 		#footer table th {
-			color: #717981;
+			color: #f0f0f0;
 		}
 
 		#footer table thead {
@@ -4170,7 +4170,7 @@ input, select, textarea {
 		}
 
 		#footer .pagination a {
-			color: #717981 !important;
+			color: #ffffff !important;
 		}
 
 			#footer .pagination a:hover {
@@ -4189,7 +4189,7 @@ input, select, textarea {
 			}
 
 		#footer .pagination span {
-			color: #e2e2e2;
+			color: #ffffff;
 		}
 
 		#footer > section {
